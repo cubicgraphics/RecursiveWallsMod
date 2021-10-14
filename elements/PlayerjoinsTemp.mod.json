@@ -1,0 +1,7 @@
+{
+  "_fv": 24,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable id=\"Y\" type=\"Number\">Y</variable></variables><block deletable=\"false\" type=\"event_trigger\" x=\"624\" y=\"29\"><field name=\"trigger\">player_log_in</field><next><block type=\"world_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">When exploring i reccomend using a render distance of 12 or lower depending on the speed of your pc. once an area has been generated though, feel free to turn your render distance higher again. If your game is slowed then just wait as it will finish loading, just wait.</field></block></value></block></next></block></xml>"
+  }
+}

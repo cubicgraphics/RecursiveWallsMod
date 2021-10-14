@@ -1,0 +1,258 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "WorldStart",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "world_start",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenerateHorizontalWall",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generate_ew_wall",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerjoinsTemp",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playerjoins_temp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenerateNSWall",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generate_ns_wall",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AngledSupport",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "angled_support"
+    },
+    {
+      "name": "ReturnPlayerToOverworld",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "return_player_to_overworld",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EngineersDecorHBeam",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "engineers_decor_h_beam"
+    },
+    {
+      "name": "GenerateStructuresDynamiclyOnPlayerTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "generate_structures_dynamicly_on_player_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UpdateRenderDistance",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "update_render_distance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Structurebedrock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "structurebedrock"
+    },
+    {
+      "name": "ReadEndingsText",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "read_endings_text",
+      "metadata": {
+        "return_type": "arraylist",
+        "dependencies": []
+      }
+    },
+    {
+      "name": "WriteEndingsAchieved",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "write_endings_achieved"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "SetNewSpawn",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "GenerateStructureRenderDist",
+      "type": "number",
+      "scope": "map",
+      "value": "8.0"
+    },
+    {
+      "name": "renderline",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.recursivecustomstart.structurebedrock": "Structure bedrock",
+      "block.customstart.structurebedrock": "Structure bedrock",
+      "block.recursivecustomstart.engineers_decor_h_beam": "Engineers Decor H Beam(modified)",
+      "block.customstart.angled_support": "Angled Support",
+      "block.customstart.engineers_decor_h_beam": "Engineers Decor H Beam(modified)",
+      "block.recursivecustomstart.angled_support": "Angled Support"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "recursivecustomstart",
+    "modName": "RecursiveCustomStart",
+    "version": "0.0.5",
+    "description": "Recursive custom start",
+    "author": "cubic",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/recursivecustomstart",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "blockcarpentry",
+      "projectred-illumination",
+      "chisel",
+      "engineersdecor",
+      "ctm"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "cubic, mcreator for making it easy to set up literally everything",
+    "modElementsPackage": "net.cubicmods.recursivecustomstart",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

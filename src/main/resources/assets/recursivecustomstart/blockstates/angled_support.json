@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "recursivecustomstart:block/angled_support"
+    },
+    "facing=east": {
+      "model": "recursivecustomstart:block/angled_support",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "recursivecustomstart:block/angled_support",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "recursivecustomstart:block/angled_support",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "recursivecustomstart:custom/steel_double_t_support_model",
+  "textures": {
+    "all": "recursivecustomstart:blocks/steel_double_t_support_end_texture",
+    "particle": "recursivecustomstart:blocks/steel_double_t_support_end_texture",
+    "side": "recursivecustomstart:blocks/steel_double_t_support_side_texture",
+    "top": "recursivecustomstart:blocks/steel_double_t_support_top_texture",
+    "end": "recursivecustomstart:blocks/steel_double_t_support_end_texture"
+  }
+}

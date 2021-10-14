@@ -1,0 +1,8 @@
+{
+  "parent": "recursivecustomstart:custom/angledsupport",
+  "textures": {
+    "all": "recursivecustomstart:blocks/angledsupport",
+    "particle": "recursivecustomstart:blocks/angledsupport",
+    "0": "recursivecustomstart:blocks/angledsupport"
+  }
+}

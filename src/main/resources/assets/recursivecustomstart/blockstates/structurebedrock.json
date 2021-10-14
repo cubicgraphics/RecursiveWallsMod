@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "recursivecustomstart:block/structurebedrock"
+    }
+  }
+}

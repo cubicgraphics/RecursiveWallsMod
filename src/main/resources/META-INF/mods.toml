@@ -1,0 +1,55 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="recursivecustomstart"
+version="0.0.5"
+displayName="RecursiveCustomStart"
+credits="cubic, mcreator for making it easy to set up literally everything"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/recursivecustomstart"
+authors="cubic"
+description='''
+Recursive custom start
+'''
+
+[[dependencies.recursivecustomstart]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.recursivecustomstart]]
+    modId="blockcarpentry"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.recursivecustomstart]]
+    modId="projectred-illumination"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.recursivecustomstart]]
+    modId="chisel"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.recursivecustomstart]]
+    modId="engineersdecor"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.recursivecustomstart]]
+    modId="ctm"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+

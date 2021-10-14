@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "steel_double_t_support_side_texture",
+        "top": "steel_double_t_support_top_texture",
+        "end": "steel_double_t_support_end_texture"
+      },
+      "name": "default"
+    }
+  }
+}
